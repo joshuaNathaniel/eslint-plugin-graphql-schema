@@ -1,0 +1,16 @@
+{
+  "check-coverage": true,
+  "branches": 100,
+  "lines": 100,
+  "functions": 100,
+  "statements": 100,
+  "exclude": [
+    "coverage/*",
+    "*.config.js",
+    "parser.js",
+    "lib/utils/*",
+    "lib/processors/*",
+    "lib/index.js",
+    "tests/*"
+    ]
+}
