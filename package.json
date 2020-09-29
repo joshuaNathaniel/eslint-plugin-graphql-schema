@@ -1,0 +1,50 @@
+{
+  "name": "eslint-plugin-get-off-my-grassql",
+  "version": "0.0.1",
+  "description": "ESLint Plugin for GraphQL Schema",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Joshua Nathaniel Miller",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test nyc --all mocha tests/lib/rules/*.test.js"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.10.3",
+    "graphql": "15.1.0",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.10.3",
+    "@babel/core": "7.10.3",
+    "@babel/plugin-transform-runtime": "7.10.3",
+    "@babel/preset-env": "7.10.3",
+    "@babel/register": "7.10.5",
+    "babel-plugin-istanbul": "6.0.0",
+    "babel-polyfill": "6.26.0",
+    "chai": "4.2.0",
+    "cross-env": "7.0.2",
+    "eslint": "7.1.0",
+    "istanbul": "0.4.5",
+    "mocha": "5.2.0",
+    "nyc": "15.1.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "nyc": {
+    "require": [
+      "@babel/register"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "sourceMap": false,
+    "instrument": false
+  },
+  "license": "MIT"
+}
