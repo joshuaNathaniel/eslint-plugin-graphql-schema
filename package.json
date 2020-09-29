@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-get-off-my-grassql",
-  "version": "0.0.1",
+  "name": "eslint-plugin-graphql-schema",
+  "version": "0.0.2",
   "description": "ESLint Plugin for GraphQL Schema",
   "keywords": [
     "eslint",
