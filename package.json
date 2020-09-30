@@ -1,6 +1,6 @@
 {
   "name": "@hackcodeboot/eslint-plugin-graphql-schema",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ESLint Plugin for GraphQL Schema",
   "keywords": [
     "eslint",
@@ -8,6 +8,10 @@
     "eslint-plugin"
   ],
   "author": "Joshua Nathaniel Miller",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuaNathaniel/eslint-plugin-graphql-schema.git"
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc --all mocha tests/lib/rules/*.test.js"
