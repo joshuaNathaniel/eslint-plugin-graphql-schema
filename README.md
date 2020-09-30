@@ -2,6 +2,8 @@
 
 An ESLint plugin to validate GraphQL schema definitions against a set of rules.
 
+- Documentation is coming
+
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
