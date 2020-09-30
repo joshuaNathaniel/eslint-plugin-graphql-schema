@@ -1,6 +1,6 @@
 {
   "name": "@hackcodeboot/eslint-plugin-graphql-schema",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "ESLint Plugin for GraphQL Schema",
   "keywords": [
     "eslint",

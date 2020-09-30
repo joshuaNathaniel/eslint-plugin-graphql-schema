@@ -15,7 +15,7 @@ $ npm i eslint --save-dev
 Next, install `eslint-plugin-graphql-schema`:
 
 ```
-$ npm install eslint-plugin-graphql-schema --save-dev
+$ npm install @hackcodeboot/eslint-plugin-graphql-schema --save-dev
 ```
 
 
