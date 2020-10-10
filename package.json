@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-graphql-schema",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "ESLint Plugin for GraphQL Schema",
   "keywords": [
     "eslint",
