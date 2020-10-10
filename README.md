@@ -111,6 +111,9 @@ All rules get enabled and stand ready to error. Be the hero your team deserves!
    ]
 }
 ```
+
+## Contributing
+ * See [Contributing](CONTRIBUTING.md)
                                                                                  
 ## Credit                                                                                 
  * [graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter): A lot of rules are from this repo and converted for use in eslint. If you do not wish to add another eslint-plugin then try this.
