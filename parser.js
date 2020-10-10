@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 const {Lexer, Source, parse, visit} = require("graphql");
 
 function populateLines(input) {
