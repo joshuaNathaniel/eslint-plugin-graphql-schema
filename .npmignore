@@ -6,4 +6,5 @@ coverage/
 .nyc_output/
 .swp
 acceptance/
+.github/
 
