@@ -44,7 +44,7 @@ describe('type-fields-have-trailing-commas always', () => {
               + '}\n');
           done();
         } catch (error) {
-          done(err);
+          done(error);
         }
       })
     });

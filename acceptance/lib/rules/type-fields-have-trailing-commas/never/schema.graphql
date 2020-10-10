@@ -1,0 +1,4 @@
+type TrailingComma {
+  withComma: String,
+  withCommaEnd: String,
+}
