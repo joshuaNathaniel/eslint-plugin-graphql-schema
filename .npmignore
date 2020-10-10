@@ -1,0 +1,8 @@
+node_modules/
+.idea/
+.npmrc
+coverage/
+.nyc_output/
+.swp
+acceptance/
+
