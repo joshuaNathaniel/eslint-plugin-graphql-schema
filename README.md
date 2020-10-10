@@ -7,15 +7,19 @@ An ESLint plugin to validate GraphQL schema definitions against a set of rules.
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ npm i eslint --save-dev
+npm i eslint --save-dev
 ```
 
 Next, install `eslint-plugin-graphql-schema`:
 
 ```
-$ npm install @hackcodeboot/eslint-plugin-graphql-schema --save-dev
+npm install eslint-plugin-graphql-schema --save-dev
 ```
 
+To use you must include the `graphql` or `gql` extensions  
+```
+eslint --ext .graphql
+```
 ### Plugging it in
 
 Add `graphql-schema` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
@@ -40,9 +44,9 @@ patterns that include `*Schema*` and/or `*schema*` as this is the pattern found 
             "parser": "eslint-plugin-graphql-schema/parser",
             "rules": {
                "graphql-schema/arguments-have-descriptions": ["off", {"commentDescriptions": false}],
-               "graphql-schema/fields-have-descriptions": ["warning", {"commentDescriptions": false}],
+               "graphql-schema/type-fields-have-descriptions": ["warn", {"commentDescriptions": false}],
                "graphql-schema/types-have-descriptions": ["off", {"commentDescriptions": false}],
-               "graphql-schema/fields-have-trailing-commas": ["error", "never"]
+               "graphql-schema/type-fields-have-trailing-commas": ["error", "never"]
             }
         }
     ]

@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    "graphql-schema"
+  ],
+  "overrides":[
+    {
+      "files": ["*schema.graphql"],
+      "parser": "eslint-plugin-graphql-schema/parser",
+      "rules": {
+        "graphql-schema/type-fields-have-trailing-commas": ["error", "multiline"]
+      }
+    }
+  ]
+}
