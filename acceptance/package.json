@@ -5,7 +5,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "npm run reset && ./node_modules/.bin/jest",
+    "start": "./node_modules/.bin/jest",
     "reset": "git co ."
   },
   "dependencies": {
