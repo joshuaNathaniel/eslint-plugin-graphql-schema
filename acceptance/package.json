@@ -5,7 +5,8 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "./node_modules/.bin/jest"
+    "start": "npm run reset && ./node_modules/.bin/jest",
+    "reset": "git co ."
   },
   "dependencies": {
     "eslint-plugin-graphql-schema": "file:../",
