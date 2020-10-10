@@ -1,0 +1,15 @@
+{
+  "name": "eslint-plugin-graphql-schema-acceptance",
+  "version": "0.0.1",
+  "description": "Acceptance testing for eslint-plugin-graphql-schema",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/jest"
+  },
+  "dependencies": {
+    "eslint-plugin-graphql-schema": "file:../",
+    "jest": "26.4.2",
+    "eslint": "7.10.0"
+  }
+}
