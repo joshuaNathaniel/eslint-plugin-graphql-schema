@@ -1,5 +1,5 @@
 {
-  "name": "@hackcodeboot/eslint-plugin-graphql-schema",
+  "name": "eslint-plugin-graphql-schema",
   "version": "0.0.8",
   "description": "ESLint Plugin for GraphQL Schema",
   "keywords": [
@@ -14,6 +14,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
+    "acceptance": "cd acceptance/ && npm install && npm run reset && npm run start && npm run reset && cd ..",
     "test": "cross-env NODE_ENV=test nyc --all mocha tests/lib/rules/*.test.js"
   },
   "dependencies": {
