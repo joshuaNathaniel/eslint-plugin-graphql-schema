@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-graphql-schema",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "ESLint Plugin for GraphQL Schema",
   "keywords": [
     "eslint",
@@ -32,7 +32,7 @@
     "babel-polyfill": "6.26.0",
     "cross-env": "7.0.2",
     "eslint": "7.1.0",
-    "jest": "26.4.2"
+    "jest": "26.6.3"
   },
   "engines": {
     "node": ">=10.0.0"
