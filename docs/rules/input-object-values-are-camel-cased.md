@@ -6,3 +6,15 @@
 * Validates  that input object value names are camel cased.
 
 ## Default configuration
+```json
+```
+
+## Examples
+
+### valid
+```graphql
+```
+
+### invalid
+```graphql
+```

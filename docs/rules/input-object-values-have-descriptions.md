@@ -6,3 +6,15 @@
 * Validates that input object values have a description.
 
 ## Default configuration
+```json
+```
+
+## Examples
+
+### valid
+```graphql
+```
+
+### invalid
+```graphql
+```

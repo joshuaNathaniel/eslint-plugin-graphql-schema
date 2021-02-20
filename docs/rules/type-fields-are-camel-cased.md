@@ -6,3 +6,15 @@
 * Validates that object type field and interface type field names are camel cased.
 
 ## Default configuration
+```json
+```
+
+## Examples
+
+### valid
+```graphql
+```
+
+### invalid
+```graphql
+```

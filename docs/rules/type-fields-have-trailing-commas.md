@@ -6,3 +6,15 @@
 * Validates that object type fields and interface type fields have trailing commas.
 
 ## Default configuration
+```json
+```
+
+## Examples
+
+### valid
+```graphql
+```
+
+### invalid
+```graphql
+```

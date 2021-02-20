@@ -6,3 +6,15 @@
 * Validates that interface types and object types have capitalized names.
 
 ## Default configuration
+```json
+```
+
+## Examples
+
+### valid
+```graphql
+```
+
+### invalid
+```graphql
+```

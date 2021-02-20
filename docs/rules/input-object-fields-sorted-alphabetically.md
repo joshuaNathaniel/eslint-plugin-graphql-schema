@@ -6,3 +6,15 @@
 * Validates that all input object fields sorted alphabetically. 
 
 ## Default configuration
+```json
+```
+
+## Examples
+
+### valid
+```graphql
+```
+
+### invalid
+```graphql
+```

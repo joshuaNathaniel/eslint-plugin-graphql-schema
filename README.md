@@ -67,7 +67,7 @@ patterns that include `*Schema*` and/or `*schema*` as this is the pattern found 
 * [graphql-schema/input-object-fields-sorted-alphabetically](docs/rules/input-object-fields-sorted-alphabetically.md): Validates that all input object fields sorted alphabetically. 
 * [graphql-schema/input-object-values-are-camel-cased](docs/rules/input-object-values-are-camel-cased.md): Validates  that input object value names are camel cased.
 * [graphql-schema/input-object-values-have-descriptions](docs/rules/input-object-values-have-descriptions.md): Validates that input object values have a description.
-* [graphql-schema/object-types-have-prefixes](docs/rules/object-types-have-prefixes.md): Validates that object types have a given prefixes.
+* [graphql-schema/object-types-have-prefixes](docs/rules/object-types-have-prefixes.md): Validates that object types have given prefixes.
 * [graphql-schema/type-fields-are-camel-cased](docs/rules/type-fields-are-camel-cased.md): Validates that object type field and interface type field names are camel cased.
 * [graphql-schema/type-fields-have-descriptions](docs/rules/type-fields-have-descriptions.md): Validates that object type fields and interface type fields have a description.
 * [graphql-schema/type-fields-have-trailing-commas](docs/rules/type-fields-have-trailing-commas.md): Validates that object type fields and interface type fields have trailing commas.
