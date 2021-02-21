@@ -23,8 +23,16 @@ Validates that all enum values sorted alphabetically.
 
 ### valid
 ```graphql
+enum Alphabet {
+  AAA
+  ZZZ
+}
 ```
 
 ### invalid
 ```graphql
+enum Alphabet {
+  ZZZ
+  AAA
+}
 ```

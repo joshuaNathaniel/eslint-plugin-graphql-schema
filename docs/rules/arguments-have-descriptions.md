@@ -48,6 +48,7 @@ type Box {
   widget(
     # Widget ID
     id: Int
+    "Widget Type"
     type: String
   ): String!
 }

@@ -21,10 +21,30 @@ Validates that all enum values have a description.
 
 ## Examples
 
-### valid
+### valid `commentDescriptions: false`
 ```graphql
+enum Status {
+  "Hidden"
+  HIDDEN
+}
+```
+
+### valid `commentDescriptions: true`
+```graphql
+enum Status {
+  "Hidden"
+  HIDDEN
+  # Published
+  PUBLISHED
+  ""
+  DRAFT
+}
 ```
 
 ### invalid
 ```graphql
+enum Status {
+  HIDDEN
+}
 ```
+

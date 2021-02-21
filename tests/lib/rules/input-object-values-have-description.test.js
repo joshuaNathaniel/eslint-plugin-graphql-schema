@@ -7,15 +7,15 @@ const ruleTester = new RuleTester();
 describe('input-object-values-have-description', () => {
     ruleTester.run('input-object-values-have-description', rule, {
         valid: [
-            {
+          {
                 code: `
-      type A {
-        hello(argumentWithoutDescription: String): String
-      }
+       type A {
+         hello(argumentWithoutDescription: String): String
+       }
     `,
                 parser
-            },
-            {
+        },
+        {
                 code: `
       input F {
         # F

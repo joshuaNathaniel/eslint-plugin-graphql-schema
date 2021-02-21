@@ -12,7 +12,7 @@ Validates that all enum values are capitalized.
     "overrides":[
         {
             "rules": {
-               "graphql-schema/enum-values-all-caps": ["error"]
+               "graphql-schema/enum-values-all-caps": ["warn"]
             }
         }
     ]
@@ -23,8 +23,17 @@ Validates that all enum values are capitalized.
 
 ### valid
 ```graphql
+enum Stage {
+  FOO
+  FOO_BAR
+  FOO_BAR_1
+}
 ```
 
 ### invalid
 ```graphql
+enum Stage {
+  foo  
+  foo_bar
+}
 ```
