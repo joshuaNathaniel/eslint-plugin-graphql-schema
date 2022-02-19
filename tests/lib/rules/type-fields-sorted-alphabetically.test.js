@@ -23,6 +23,7 @@ describe('type-fields-sorted-alphabetically', () => {
       type Stage {
         foo: String
         bar: String
+        zap: String
       }
     `,
                 parser,
@@ -30,11 +31,15 @@ describe('type-fields-sorted-alphabetically', () => {
       type Stage {
         bar: String
         foo: String
+        zap: String
       }
     `,
                 errors: [
                     {
-                        message: 'The fields of object type `Stage` should be sorted alphabetically. Expected sorting: bar, foo'
+                        message: 'Field `foo` of object type `Stage` should be sorted alphabetically.'
+                    },
+                    {
+                        message: 'Field `bar` of object type `Stage` should be sorted alphabetically.'
                     }
                 ]
             },
