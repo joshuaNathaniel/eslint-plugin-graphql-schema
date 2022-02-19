@@ -18,34 +18,24 @@
     "test": "cross-env NODE_ENV=test ./node_modules/.bin/jest tests/*"
   },
   "dependencies": {
-    "@babel/runtime": "7.10.3",
+    "@babel/runtime": "7.17.2",
     "graphql": "15.1.0",
-    "requireindex": "~1.1.0"
+    "requireindex": "~1.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.10.3",
-    "@babel/core": "7.10.3",
-    "@babel/plugin-transform-runtime": "7.10.3",
-    "@babel/preset-env": "7.10.3",
-    "@babel/register": "7.10.5",
-    "babel-plugin-istanbul": "6.0.0",
+    "@babel/cli": "7.17.3",
+    "@babel/core": "7.17.5",
+    "@babel/plugin-transform-runtime": "7.17.0",
+    "@babel/preset-env": "7.16.11",
+    "@babel/register": "7.17.0",
+    "babel-plugin-istanbul": "6.1.1",
     "babel-polyfill": "6.26.0",
-    "cross-env": "7.0.2",
-    "eslint": "7.1.0",
-    "jest": "26.6.3"
+    "cross-env": "7.0.3",
+    "eslint": "8.9.0",
+    "jest": "27.5.1"
   },
   "engines": {
     "node": ">=10.0.0"
-  },
-  "jest": {
-    "coverageThreshold": {
-      "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100,
-        "statements": 100
-      }
-    }
   },
   "license": "MIT"
 }
