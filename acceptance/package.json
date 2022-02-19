@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "eslint-plugin-graphql-schema": "file:../",
-    "jest": "26.6.3",
-    "eslint": "7.10.0"
+    "jest": "27.5.1",
+    "eslint": "8.9.0"
   }
 }
