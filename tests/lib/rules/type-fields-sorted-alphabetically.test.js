@@ -25,10 +25,22 @@ describe('type-fields-sorted-alphabetically', () => {
         bar: String
         zap: String
       }
+      
+      type Stage2 {
+        bar: String
+        foo: String
+        zap: String
+      }
     `,
                 parser,
               output: `
       type Stage {
+        bar: String
+        foo: String
+        zap: String
+      }
+      
+      type Stage2 {
         bar: String
         foo: String
         zap: String
